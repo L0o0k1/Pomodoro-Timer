@@ -1,0 +1,131 @@
+
+/* BC Im Not a front-end Dev ! :)  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(img/pexels-bentonphotocinema-1095601.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(194, 136, 49, 0.8);
+  padding: 3em 2em;
+  border-radius: 0.75em;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: min(85%, 450px);
+  max-width: 450px;
+}
+
+.section-container {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: #757575;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.75rem; 
+  border-radius: 0.5rem;
+  cursor: pointer; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: 500; /
+}
+
+.focus-button {
+  background-color: #616161;
+  color: #fff;
+}
+
+.focus-button:hover {
+  background-color: #ff3b3b;
+}
+
+.short-break {
+  background-color: #616161;
+  color: #fff;
+}
+
+.short-break:hover {
+  background-color: #4db85b;
+}
+
+.long-break {
+  background-color: #616161;
+  color: #ffffff;
+}
+
+.long-break:hover {
+  background-color: #4db85b;
+}
+
+.time-btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+}
+
+.time {
+  text-align: center;
+  color: #ebe0e0;
+  font-size: 50em;
+  font-weight: 700;
+  display: flex;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+#btn-start,
+#btn-pause {
+  background-color: #757575; 
+  color: #ffffff; 
+  border: none; 
+  padding: 0.75rem 1.75rem; 
+  border-radius: 0.5rem; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: 500; /
+}
+#btn-reset {
+  background-color: #757575; 
+  color: #ffffff; 
+  border: none; 
+  padding: 0.75rem 1.75rem; 
+  border-radius: 0.5rem; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+  font-weight: 500; /
+}
+
+#btn-start:hover {
+  background-color: #257e30;
+}
+
+#btn-pause:hover {
+  background-color: #cc0b0b;
+}
+
+#btn-reset:hover {
+  background-color: #257e30;
+}
+
+.hide {
+  display: block;
+}
+.show {
+  display: block;
+}
